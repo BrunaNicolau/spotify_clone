@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+   }
+   
+
+.spotify-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+    /* align-items: center;
+    justify-content: center;
+    width: 800;
+    height: 100vh; */
+}
+
+.text-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    height: 200px; */
+
+}
+
+
+.image-grid{
+    display: flex;
+    align-items: center;  /* horizontal */
+    justify-content: space-around; /* vertical */
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+    
+    /* width: 1000px;
+    height: 1000px; */
+
+}
+
+.album-cover{
+    height: 250px;
+    width: 250px;
+    margin: 5px;
+    position: relative;
+    cursor: pointer;
+}
